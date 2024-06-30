@@ -7,6 +7,7 @@ const Users = () => {
         <h1>Users</h1>
         <button>Add new User</button>
       </div>
+      
     </div>
   )
 }
