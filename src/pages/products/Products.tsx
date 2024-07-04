@@ -3,6 +3,7 @@ import "./products.scss"
 import DataTable from "../../componenets/dataTable/DataTable"
 import Add from "../../componenets/add/Add"
 import { products } from "../../data";
+import { GridColDef } from "@mui/x-data-grid";
 const columns: GridColDef[] = [
   { field: "id", headerName: "ID", width: 90 },
   {
