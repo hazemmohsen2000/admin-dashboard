@@ -1,5 +1,6 @@
 
 @import "../../styles/variables.scss";
+@import "../../styles/responsive.scss";
 .menu{
 
 
@@ -16,6 +17,10 @@
             color : $soft-color;
             text-transform: uppercase;
                
+            
+      @include lg{
+        display: none;
+      }
         }
         
         .ListItem{
@@ -26,6 +31,11 @@
             &:hover{
                 background-color: $soft-bg;
                 border-radius: 5px;
+            }
+            .ListItemTitle{
+                @include lg{
+                  display: none;
+                }
             }
         }
 
