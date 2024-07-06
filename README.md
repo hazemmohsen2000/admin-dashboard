@@ -27,5 +27,19 @@ This is a web application built with React and Vite that serves as an admin dash
 - **Products**: Lists all products with filtering options and detailed product pages. Each product has a dedicated page with more information. Also, includes a modal for product interactions.
 - **Profile**: Manage user profiles with various options.
 - **user and product**: Single page for each product or user that shows a chart of the activites and detailed informations.
+## Screenshots
+### Home
+
+Displays an overview of the key metrics and data visualizations.
+
+![Home Page](public/homepage.png)
+
+### Users
+
+Lists all users with options to filter and view detailed information. Each user has a dedicated page with more details. Also, includes a modal for user interactions.
+
+![Users Page](public/userspage.png)
+![User Modal](public/usersmodal.png)
+![User Details](public/userpage.png)
 
 
