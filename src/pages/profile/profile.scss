@@ -1,5 +1,14 @@
+@import "../../styles/responsive.scss";
+
 .profile{
     display: flex;
+    @include xl{
+        flex-direction: column;
+        gap: 50px;
+      }
+      @include sm{
+       padding : 10px;
+      }
 
     .view{
         flex : 1;
@@ -28,22 +37,10 @@
                         margin-right: 10px;
                         text-transform: capitalize;
                     }
-                    .itemValueo{
-                        color : rgb(52, 202, 52);
-                    }
                 }
             }
         }
-        hr{
-            width: 90%;
-            height: 0;
-            border: 0.5px solid gray;
-            margin: 20px 0;
-        }
-        .chart{
-            margin-top:  50px;
-            height: 400px;
-        }
+ 
     }
     .activites{
         flex : 1;
@@ -72,6 +69,9 @@
                     min-width: 480px;
                     padding:15px;
                     background-color: #f45b6810;
+                    @include md{
+                        min-width: 250px;
+                      }
                     p{
                         margin-bottom: 5px;
                     }
