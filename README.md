@@ -32,7 +32,7 @@ This is a web application built with React and Vite that serves as an admin dash
 
 Displays an overview of the key metrics and data visualizations.
 
-![Home Page](public/homepage.png)
+![Home Page](screenshots\homepage.png)
 
 ### Users
 
