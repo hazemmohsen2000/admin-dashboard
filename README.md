@@ -38,8 +38,8 @@ Displays an overview of the key metrics and data visualizations.
 
 Lists all users with options to filter and view detailed information. Each user has a dedicated page with more details. Also, includes a modal for user interactions.
 
-![Users Page](public/userspage.png)
-![User Modal](public/usersmodal.png)
-![User Details](public/userpage.png)
+![Users Page](/screenshots/userspage.png)
+![User Modal](/screenshots/usersmodal.png)
+![User Details](/screenshots/userpage.png)
 
 
