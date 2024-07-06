@@ -1,6 +1,9 @@
 # Admin Dashboard
 
 This is a web application built with React and Vite that serves as an admin dashboard. It includes various features and functionalities to manage users and products, with a rich set of data visualizations. The app leverages modern technologies to provide a seamless and efficient user experience.
+## Demo
+
+Check out the live demo: [Admin Dashboard](https://hazemadmin.netlify.app/)
 
 ## Features
 
