@@ -6,7 +6,7 @@ const Profile = () => {
         <div className="view">
             <div className="info">
                 <div className="topInfo">
-                     <img src="" alt="" />
+                     <img src="public\hazem.PNG" alt="" />
                     <h1>Hazem Mohsen</h1>
                     <button>Edit Profile</button>
                 </div>

@@ -18,7 +18,7 @@ const Navbar = () => {
         
         <div className="user">
           <Link to = "profile">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOsW-qK0rQcWNv6iv95_4FLuVML1V4IM-51g&s" alt="" />
+          <img src="public\hazem.PNG" alt="" />
           </Link>
           <span>hazem</span>
         </div>
