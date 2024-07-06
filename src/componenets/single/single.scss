@@ -17,7 +17,9 @@
                 display: flex;
                 align-items: center;
                 gap : 20px;
-
+                @include sm{
+                    flex-direction: column;
+                   }
                 img{
                     width: 100px;
                     height: 100px;
@@ -25,6 +27,16 @@
                     object-fit: cover;
                 }
                 h1{
+                    font-weight: 500;
+                }
+                button{
+                    padding : 10px;
+                    border-radius: 5px;
+                    outline : none ;
+                    color : white ;
+                    background-color: transparent;
+                    border: 1px solid white ;
+                    font-size: 14px;
                     font-weight: 500;
                 }
             }
