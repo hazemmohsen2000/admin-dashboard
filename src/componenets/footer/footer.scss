@@ -1,8 +1,14 @@
+@import "../../styles/responsive.scss";
+
 .footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding : 30px;
+    @include sm{
+        flex-direction: column;
+        gap : 20px;
+      }
 
     span{
         &:first-child { 

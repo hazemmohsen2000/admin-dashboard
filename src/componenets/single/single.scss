@@ -1,5 +1,14 @@
+@import "../../styles/responsive.scss";
+
 .single{
     display: flex;
+    @include xl{
+        flex-direction: column;
+        gap: 50px;
+      }
+      @include sm{
+       padding : 10px;
+      }
 
     .view{
         flex : 1;
@@ -36,10 +45,16 @@
             height: 0;
             border: 0.5px solid gray;
             margin: 20px 0;
+            @include md{
+                display: none;
+              }
         }
         .chart{
             margin-top:  50px;
             height: 400px;
+            @include md{
+                display: none;
+              }
         }
     }
     .activites{
@@ -69,6 +84,9 @@
                     min-width: 480px;
                     padding:15px;
                     background-color: #f45b6810;
+                    @include md{
+                        min-width: 250px;
+                      }
                     p{
                         margin-bottom: 5px;
                     }
